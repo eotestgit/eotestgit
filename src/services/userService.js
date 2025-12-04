@@ -19,7 +19,7 @@ let users = [];
 exports.createUser = (userData) => {
 
   //로깅 추가
-  logger.log('create user request: ' + JSON.stringify(userData));
+  logger.log('create user request:: ' + JSON.stringify(userData));
 
   //기본 로직
   if (userData.admin === true) {
